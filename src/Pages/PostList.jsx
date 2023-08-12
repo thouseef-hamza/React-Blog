@@ -15,7 +15,6 @@ const listStyle ={
 
 export const PostList = () => {
   const {blog} = useContext(myContext)
-  console.log(blog,'andiiiiiiii');
   const title = blog.filter((value)=> value.title)
   const nav = useNavigate()
   return (
